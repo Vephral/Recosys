@@ -4,7 +4,7 @@ import pandas as pd
 from vk_api.longpoll import VkLongPoll, VkEventType
 
 # get group token
-club_token = '3b156916467056f5d6dc91341ea329ae212a49674024fa603aa93c77e435fefaf6a697a151fad4220f266'
+club_token = 'token'
 # authorization to vk
 vk_session = vk_api.VkApi(token=club_token)
 # create request server
